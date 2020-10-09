@@ -22,6 +22,7 @@ public class UserController {
         this.jwtService = jwtService;
     }
 
+    /*
     @PostMapping("/sign-up")
     public ResponseEntity signUp(@RequestBody SignUpRequestDto requestBody){
         userService.signUp(requestBody);
@@ -41,5 +42,5 @@ public class UserController {
         }
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
-
+     */
 }

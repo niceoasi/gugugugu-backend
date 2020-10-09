@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class MypageService {
+    /*
     private final UserRepository userRepository;
 
     public MypageService(UserRepository userRepository) {
@@ -43,4 +44,5 @@ public class MypageService {
 
         return new UpdateNicknameResponseDto(user.getNickname());
     }
+    */
 }

@@ -20,6 +20,7 @@ public class MypageController {
         this.mypageService = mypageService;
     }
 
+    /*
     @GetMapping
     public ResponseEntity getMypage(@RequestBody MypageRequestDto requestBody){
         return ResponseEntity.status(HttpStatus.OK).body(mypageService.get(requestBody));
@@ -34,4 +35,5 @@ public class MypageController {
     public ResponseEntity updateNickname(@RequestBody UpdateNicknameRequestDto requestBody){
         return ResponseEntity.status(HttpStatus.OK).body(mypageService.updateNickname(requestBody));
     }
+    */
 }

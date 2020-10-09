@@ -16,6 +16,7 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
+    /*
     public boolean isExisted(String tokenId, String email){
         return userRepository.findByTokenId(tokenId).filter(user -> user.getEmail().equals(email)).isPresent();
     }
@@ -30,5 +31,5 @@ public class UserService {
 
         userRepository.save(user);
     }
-
+    */
 }
